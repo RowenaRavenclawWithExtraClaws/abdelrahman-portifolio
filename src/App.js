@@ -1,8 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import Header from "./components/header";
 
 class App extends Component {
   render() {
-    return <React.Fragment></React.Fragment>;
+    return (
+      <React.Fragment>
+        <Header></Header>
+      </React.Fragment>
+    );
   }
 }
 
