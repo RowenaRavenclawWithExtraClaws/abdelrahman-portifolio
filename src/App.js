@@ -4,12 +4,14 @@ import Header from "./components/header";
 class App extends Component {
   state = {
     name: "Abdelrahman Nasser",
+    profession: "Softwre Engineer",
+    about: "A dude who writes code for a living!",
   };
 
   render() {
     return (
       <React.Fragment>
-        <Header name={this.state.name}></Header>
+        <Header info={this.state}></Header>
       </React.Fragment>
     );
   }
