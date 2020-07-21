@@ -3,14 +3,6 @@
   height: 240px;
 }
 
-.header h1 {
-  color: rosybrown;
-  line-height: 100px;
-  padding-left: 20px;
-  font-family: monospace;
-  float: left;
-}
-
 .header img {
   float: left;
   width: 200px;
@@ -18,4 +10,33 @@
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 50%;
+}
+
+.col {
+  overflow: auto;
+  width: 500px;
+  height: 240px;
+}
+
+.header h1 {
+  color: rosybrown;
+  line-height: 100px;
+  font-family: monospace;
+  font-weight: bold;
+  float: left;
+}
+
+.header h3 {
+  color: rosybrown;
+  padding-bottom: 20px;
+  font-family: monospace;
+  font-style: italic;
+  float: left;
+}
+
+.header p {
+  color: rosybrown;
+  padding-bottom: 20px;
+  font-family: monospace;
+  float: left;
 }
