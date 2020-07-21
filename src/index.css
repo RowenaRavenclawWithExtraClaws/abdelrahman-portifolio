@@ -3,13 +3,23 @@
   height: 240px;
 }
 
-.header img {
+.photo {
   float: left;
   width: 200px;
   height: 200px;
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 50%;
+}
+
+.github {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+  cursor: grab;
 }
 
 .col {
@@ -35,8 +45,8 @@
 }
 
 .header p {
+  float: left;
   color: rosybrown;
   padding-bottom: 20px;
   font-family: monospace;
-  float: left;
 }
