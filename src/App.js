@@ -6,6 +6,7 @@ class App extends Component {
     name: "Abdelrahman Nasser",
     profession: "Softwre Engineer",
     about: "A dude who writes code for a living!",
+    github: "https://github.com/RowenaRavenclawWithExtraClaws",
   };
 
   render() {
