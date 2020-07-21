@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Photo from "../static/Photo.png";
+import Octocat from "../static/Octocat.png";
 
 class Header extends Component {
   render() {
@@ -8,7 +9,8 @@ class Header extends Component {
     return (
       <header>
         <div className="header">
-          <img src={Photo} alt="logo" />
+          <img src={Photo} className="photo" alt="logo" />
+          <img src={Octocat} className="github" alt="logo" />
           <div className="col">
             <h1>{info.name}</h1>
             <h3>{info.profession}</h3>
