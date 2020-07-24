@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./components/header";
+import Heroics from "./components/heroics";
 
 class App extends Component {
   state = {
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header info={this.state}></Header>
+        <Heroics>Ahmed</Heroics>
       </React.Fragment>
     );
   }
