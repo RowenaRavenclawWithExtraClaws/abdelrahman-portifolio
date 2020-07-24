@@ -54,3 +54,59 @@
   background-color: #ffffff;
   height: calc(100vh - 240px);
 }
+
+.heroic h1 {
+  color: rosybrown;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.project1 {
+  width: 300px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float: left;
+}
+
+.project2 {
+  width: 300px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-left: calc(30vh);
+  margin-bottom: 1px;
+  float: left;
+}
+
+.project3 {
+  width: 300px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float: right;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.h3 {
+  color: rosybrown;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 10px;
+}
