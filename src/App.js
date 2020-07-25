@@ -38,11 +38,24 @@ class App extends Component {
     ],
   };
 
+  info = {
+    name: null,
+    profession: null,
+    about: null,
+    photo: null,
+    octocat: null,
+  };
+
+  projects = null;
+
   render() {
+    this.info = this.state;
+    this.projects = this.state.projects;
+
     return (
       <React.Fragment>
-        <Header info={this.state}></Header>
-        <Heroics projects={this.state.projects}></Heroics>
+        <Header info={this.info}></Header>
+        <Heroics projects={this.projects}></Heroics>
       </React.Fragment>
     );
   }
