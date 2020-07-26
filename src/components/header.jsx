@@ -7,7 +7,12 @@ class Header extends Component {
     return (
       <header>
         <div className="header">
-          <img src={info.photo} className="photo" alt="logo" />
+          <img
+            src={info.photo}
+            className="photo"
+            alt="logo"
+            onClick={this.props.changeInfo}
+          />
           <img
             src={info.octocat}
             title="Github profile"
