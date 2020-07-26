@@ -38,12 +38,22 @@ class App extends Component {
     ],
   };
 
+  fetchRaneem = async () => {
+    let res = await fetch("/info");
+    res = await res.json();
+    this.setState({
+      name: res.name,
+      profession: res.profession,
+      about: res.about,
+    });
+  };
+
   render() {
     let { projects, ...restProps } = this.state;
 
     return (
       <React.Fragment>
-        <Header info={restProps}></Header>
+        <Header info={restProps} changeInfo={this.fetchRaneem}></Header>
         <Heroics projects={projects}></Heroics>
       </React.Fragment>
     );
